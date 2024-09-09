@@ -1,0 +1,26 @@
+git config --global user.name "name" - add user
+git config --global user.name
+git config user.name
+
+mkdir - make directory
+rmdir/rm - remove directory
+rm - remove file
+touch - make file
+git init - make directory a repo
+
+**save file before adding to staging
+git add . - add all files to staging
+git rm --cached - remove file from staging
+git status - check staging area
+git commit -m "message" - commit with message
+
+cat ~/.gitconfig
+git commit --amend --reset-author
+rm -rf .git
+git config --global --unset user.name
+
+
+
+Use the git rm --cached command to remove files or directories from the Git index (staging area) while keeping them in your working directory:
+git rm --cached path/to/file
+git rm --cached -r path/to/directory

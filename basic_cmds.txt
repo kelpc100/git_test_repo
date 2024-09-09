@@ -14,10 +14,10 @@ git rm --cached - remove file from staging
 git status - check staging area
 git commit -m "message" - commit with message
 
-cat ~/.gitconfig
-git commit --amend --reset-author
-rm -rf .git
-git config --global --unset user.name
+cat ~/.gitconfig - view git config file
+git commit --amend --reset-author - change the author
+rm -rf .git - remove git
+git config --global --unset user.name - username variable
 
 
 

@@ -19,6 +19,9 @@ git commit --amend --reset-author - change the author
 rm -rf .git - remove git
 git config --global --unset user.name - username variable
 
+git log - view log of git changes
+git log --oneline - condenses git log
+
 
 
 Use the git rm --cached command to remove files or directories from the Git index (staging area) while keeping them in your working directory:

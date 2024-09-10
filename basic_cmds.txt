@@ -32,9 +32,9 @@ git branch - add branch
 git branch -a - view all branches
 git checkout branchname - select branch
 git branch -d branch name - delete a branch
-
 git checkout -b branchname - adds new branch and checks it out
 
+git merge branchname - merges current branch with branchname
 
 
 Use the git rm --cached command to remove files or directories from the Git index (staging area) while keeping them in your working directory:
